@@ -1,0 +1,18 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    color: hsl(193, 38%, 86%);
+}
+
+.container{
+    background-color: hsl(217, 19%, 24%);
+    font-size: 28px;
+}
+
+.numero-conselho{
+    color: hsl(150, 100%, 66%);
+}
+
+.botao{
+    background-color: hsl(150, 100%, 66%)
+}
