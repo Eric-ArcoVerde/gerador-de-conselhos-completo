@@ -1,0 +1,20 @@
+*{      /*seletor universal*/
+    margin: 0; /*espaçamento externo, entre elementos*/
+    padding: 0; /*Espaçamento interno, separa um conteudo da borda do elemento*/
+    border: none; /*borda*/
+    outline: none; /*não sabe, mas normalmente reseta tambem*/
+    box-sizing: border-box; /*Trabalha com largura dos objetos*/
+}
+
+a{      /*seletor das tags ancoras*/
+    text-decoration: none; /*decoração do texto*/
+    color: #fff; /*linguagem hexadecimal, da para escrever o nome da cor tambem*/
+}
+
+ul{
+    list-style: none; /*tira as bolinhas das listas*/
+}
+
+img{
+    max-width: 100%; /*lagura maxima*/
+}
