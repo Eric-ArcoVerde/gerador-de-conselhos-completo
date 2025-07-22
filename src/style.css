@@ -38,11 +38,13 @@ main{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .quebra-linha{
     margin-top: 20px;
+    height: 16px;
 }
 
 .botao{
@@ -50,7 +52,7 @@ main{
     height: 55px;
     width: 55px;
     border-radius: 100px;
-    transform: translateY(50%);
+    transform: translateY(53%);
 }
 
 .botao:hover{

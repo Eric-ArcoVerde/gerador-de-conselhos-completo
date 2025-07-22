@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+    .container {
+        font-size: 18px;
+        width: 480px;
+        height: 280px;
+        padding: 0px 25px;
+    }
+
+    .numero-conselho {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .conselho {
+        height: 133px;
+        margin-top: 15px;
+    }
+
+    .quebra-linha {
+        margin-top: 15px;
+    }
+
+    .botao {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 395px;
+        height: 350px;
+    }
+
+    .conselho {
+        height: 203px;
+    }
+
+    .botao {
+        height: 50px;
+        width: 50px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 345px;
+    }
+}
+
+@media (max-width: 325px) {
+    .container {
+        width: 295px;
+    }
+}
