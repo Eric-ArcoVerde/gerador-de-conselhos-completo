@@ -7,7 +7,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Advice generator app</title>
+  <title>Gerador de Conselhos</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,9 +22,12 @@
 <body>
   <main>
     <div class="container">
-      <h4 class="numero-conselho">A D V I C E #</h4>
+      <h4 class="numero-conselho">ADVICE #</h4>
       <p class="conselho">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, quidem, cum ad vel laborum aliquid sapiente hic! </p>
-      <img src="src/images/pattern-divider-desktop.svg" alt="quebra de linha" class="quebra-linha">
+      <picture class="quebra-linha">
+        <source srcset="src/images/pattern-divider-mobile.svg" media="(max-width: 425px)">
+        <img src="src/images/pattern-divider-desktop.svg" alt="quebra de linha">
+      </picture>
       <button class="botao"><img src="src/images/icon-dice.svg" alt="Icone do Botão"></button>
     </div>
   </main>
